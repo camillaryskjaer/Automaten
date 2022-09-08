@@ -3,10 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Automaten.Machine.Products;
 
-namespace Automaten
+namespace Automaten.Machine
 {
-    class VendingMachine
+    internal class VendingMachine
     {
+        private int slots;
+        public int Slots 
+        {
+            get { return slots; }
+            set { slots = value; }
+        }
     }
 }
