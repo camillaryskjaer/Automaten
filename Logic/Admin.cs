@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Automaten.Logic
 {
+
+//En admin er ikke en VendingMachine
     class Admin : VendingMachine
     {
         public int bal;
