@@ -46,10 +46,18 @@ namespace Automaten.Logic
         // Method for giving the customer change if the inputtet money was over the product price
         public int GiveChange(int money)
         {
+            
+            //UPS DEN ER FARLIG, hvad hvis der ikke ligger nogle elementer i listen?
             int change = money - colaList[0].Price;
             
             return change;
         }
+        
+        
+        
+       //Du har 3 metoder som hedder næsten det samme - det er ikke godt, for her er der tale om redundant kode
+        // Du kunne gøre det samme i kun een metode
+        
         // Method for removing an item from colaList, as long as its over 0
         public void GetSlot1()
         {
